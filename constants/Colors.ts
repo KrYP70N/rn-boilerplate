@@ -7,11 +7,13 @@ export default {
   light: {
     text: '#11181C',
     textHightlight: '#DC5F00',
-    background: '#fff'
+    background: '#fff',
+    primary: '#ffca3e'
   },
   dark: {
     text: '#efefef',
-    textHighlight: '#DC5F00',
-    background: '#11181C'
+    textHightlight: '#DC5F00',
+    background: '#11181C',
+    primary: '#ffca3e'
   },
 };

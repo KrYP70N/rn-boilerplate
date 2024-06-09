@@ -1,5 +1,5 @@
 import { general, layout } from "@/style";
-import { Image, Text, View } from "react-native";
+import { Image, View } from "react-native";
 
 export default function LoadingComponent() {
   return (

@@ -120,3 +120,8 @@ DATA STORAGE - MMKV, ASYNC
 ANIMATE - REANIMATE
 
 
+Todo
+---
+set up default radius
+set up default font size
+set up default font color

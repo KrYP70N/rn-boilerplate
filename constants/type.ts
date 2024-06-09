@@ -8,12 +8,21 @@ export type COLOR_SCHEME = keyof typeof colors.dark
 
 export type SIZE = keyof typeof size
 
+export type ALIGNMENT = 'auto' | 'left' | 'right' | 'center' | 'justify'
+
 export type TEXT = {
-  children: ReactNode, 
+  children?: ReactNode, 
+  text?: string,
   color?: COLOR_SCHEME,
   size?: SIZE,
   lineHeight?: number,
-  style?: object
+  style?: object,
+  align?: ALIGNMENT
+}
+
+export interface BUTTON extends TEXT {
+  press?: () => void,
+  radius?: SIZE
 }
 
 // func

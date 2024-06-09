@@ -1,3 +1,4 @@
+import Button from "@/components/button.component";
 import LoadingComponent from "@/components/loading.component";
 import P from "@/components/p.component";
 import { colors } from "@/constants";
@@ -23,11 +24,9 @@ export default function Home() {
 
   return (
     <View style={layout.screen}>
-      <P color="textHighlight" size="lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident alias sint aliquid unde eum, quo quas in nostrum officia facilis aperiam reiciendis laboriosam veritatis illum iusto nulla voluptatem dignissimos amet.</P>
+      <P color="textHightlight" size="lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident alias sint aliquid unde eum, quo quas in nostrum officia facilis aperiam reiciendis laboriosam veritatis illum iusto nulla voluptatem dignissimos amet.</P>
       <Text style={{color: colors.light.text}}>{testData}</Text>
-      <TouchableHighlight onPress={() => change(5)}>
-        <Text>Change</Text>
-      </TouchableHighlight>
+      <Button press={() => alert('fap')} text="hello world" align="center" />
       <Link href='sub'>Go to sub</Link>
     </View>
   )
