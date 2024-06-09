@@ -6,10 +6,12 @@
 export default {
   light: {
     text: '#11181C',
-    background: '#efefef'
+    textHightlight: '#DC5F00',
+    background: '#fff'
   },
   dark: {
     text: '#efefef',
+    textHighlight: '#DC5F00',
     background: '#11181C'
   },
 };
