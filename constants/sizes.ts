@@ -1,4 +1,5 @@
 export default {
+  empty: 0,
   xxs: 12,
   xs: 14,
   sm: 16,

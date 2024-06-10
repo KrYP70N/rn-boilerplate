@@ -7,7 +7,7 @@ export default function Button({children, press, text, size, style, radius, ...p
   const buttonStyle = {
     ...style,
     backgroundColor: colors['dark'].primary,
-    padding: sizes['sm'],
+    padding: sizes['xxs'],
     borderRadius: (radius ? sizes[radius] : 0) / 2
   }
 

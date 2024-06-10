@@ -1,10 +1,10 @@
-import { colors } from "@/constants";
+import { colors, sizes } from "@/constants";
 import { StyleSheet } from "react-native";
 
 export const layout = StyleSheet.create({
   screen: {
-    width: '100%',
     height: '100%',
+    flex: 1,
     padding: 12,
     backgroundColor: colors.light.background
   },
@@ -15,5 +15,9 @@ export const layout = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: colors.light.background
+  },
+  scroll: {
+    backgroundColor: colors.light.background,
+    padding: sizes.xxs
   }
 })

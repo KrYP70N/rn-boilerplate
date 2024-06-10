@@ -1,7 +1,6 @@
 import { ReactNode } from "react"
 import colors from "./colors"
 import size from "./sizes"
-import { StyleProp, TextStyle } from "react-native"
 
 // ui
 export type COLOR_SCHEME = keyof typeof colors.dark
@@ -23,6 +22,19 @@ export type TEXT = {
 export interface BUTTON extends TEXT {
   press?: () => void,
   radius?: SIZE
+}
+
+export type GRID_CONTEXT = {
+  context: ReactNode,
+  width: number,
+  margin: number,
+  odd?: boolean
+}
+
+export type GRID = {
+  col: number,
+  gap?: SIZE,
+  children: ReactNode
 }
 
 // func
