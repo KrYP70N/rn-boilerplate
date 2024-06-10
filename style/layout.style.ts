@@ -6,7 +6,7 @@ export const layout = StyleSheet.create({
     height: '100%',
     flex: 1,
     padding: 12,
-    backgroundColor: colors.light.background
+    backgroundColor: colors.light.primary
   },
   loading: {
     width: '100%',
@@ -17,7 +17,7 @@ export const layout = StyleSheet.create({
     backgroundColor: colors.light.background
   },
   scroll: {
-    backgroundColor: colors.light.background,
+    backgroundColor: colors.light.primary,
     padding: sizes.xxs
   }
 })

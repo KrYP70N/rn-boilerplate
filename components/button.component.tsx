@@ -6,9 +6,9 @@ export default function Button({children, press, text, size, style, radius, ...p
 
   const buttonStyle = {
     ...style,
-    backgroundColor: colors['dark'].primary,
+    backgroundColor: colors['dark'].background,
     padding: sizes['xxs'],
-    borderRadius: (radius ? sizes[radius] : 0) / 2
+    borderRadius: (radius ? sizes[radius] : 0) / 2,
   }
 
   return (
@@ -16,7 +16,7 @@ export default function Button({children, press, text, size, style, radius, ...p
       <View style={buttonStyle}>
         {
           text ?
-          <P text={text} {...props}/> : 
+          <P color='light' text={text} {...props}/> : 
           children
         }
       </View>

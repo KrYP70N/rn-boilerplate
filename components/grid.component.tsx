@@ -17,7 +17,7 @@ const ViewWrapper = ({context, width, margin, odd}: GRID_CONTEXT) => {
   )
 }
 
-export default function Grid({children, col, gap}: GRID) {
+export default function Grid({children, col, gap, style}: GRID) {
 
   const [dimenstion, setDimension] = useState({
     width: 0,
@@ -26,7 +26,8 @@ export default function Grid({children, col, gap}: GRID) {
   
   const gridStyle = {
     flexDirection: 'row',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    ...style
   } as const
 
   // calculate layout width

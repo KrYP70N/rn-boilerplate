@@ -9,8 +9,21 @@ export const general = StyleSheet.create({
   },
   input: {
     width: '100%', 
-    padding: sizes.xs - 2, 
-    borderColor: colors.light.primary,
+    padding: sizes.xs - 1, 
+    borderColor: colors.light.text,
+    backgroundColor: colors.light.light,
     borderWidth: 1
+  },
+  card: {
+    width: '100%',
+    padding: sizes.xxs
+  },
+  tableHeader: {
+    backgroundColor: colors.light.primary, 
+    marginBottom: sizes.xxs / 2, 
+    borderRadius: 6
+  },
+  tableHeaderCell: {
+    padding: sizes.lg / 2
   }
 })

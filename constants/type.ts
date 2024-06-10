@@ -34,12 +34,34 @@ export type GRID_CONTEXT = {
 export type GRID = {
   col: number,
   gap?: SIZE,
+  style?: object,
   children: ReactNode
 }
 
 export type INPUT = {
   placeholder?: string,
   radius?: SIZE
+}
+
+export type CARD = {
+  children: ReactNode,
+  background?: COLOR_SCHEME,
+  radius?: SIZE
+}
+
+export type TABLE_TITLE_CELL = {
+  key: string,
+  display?: string
+}
+
+export type TABLE = {
+  title?: TABLE_TITLE_CELL[],
+  data: object[]
+}
+
+export type CONDITIONAL_COMPONENT = {
+  state: boolean | undefined | null,
+  children: ReactNode
 }
 
 // func
