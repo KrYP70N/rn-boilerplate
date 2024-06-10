@@ -19,11 +19,16 @@ export const general = StyleSheet.create({
     padding: sizes.xxs
   },
   tableHeader: {
-    backgroundColor: colors.light.primary, 
+    backgroundColor: colors.info.thead, 
     marginBottom: sizes.xxs / 2, 
     borderRadius: 6
   },
-  tableHeaderCell: {
+  tableCell: {
     padding: sizes.lg / 2
+  },
+  tableRow: {
+    backgroundColor: colors.light.light,
+    marginBottom: sizes.xxs / 2,
+    borderRadius: 6
   }
 })

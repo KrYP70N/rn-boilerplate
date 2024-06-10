@@ -20,4 +20,10 @@ export default {
     light: '#ccc',
     placeholder: '#c3cece'
   },
+  info: {
+    first: '#ADD899',
+    second: '#D8EFD3',
+    third: '#F1F8E8',
+    thead: '#97BE5A'
+  }
 };

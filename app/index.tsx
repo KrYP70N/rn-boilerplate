@@ -6,7 +6,7 @@ import LoadingComponent from "@/components/loading.component";
 import P from "@/components/p.component";
 import ScreenContainer from "@/components/screen-container.component";
 import Table from "@/components/table.component";
-import { sizes } from "@/constants";
+import { colors, sizes } from "@/constants";
 import { users } from "@/constants/data";
 import { fetchTodo } from "@/hooks/service/todo";
 import { useHTTP } from "@/hooks/useHTTP";
@@ -34,10 +34,69 @@ export default function Home() {
       </Grid>
 
       <Card radius="xxs">
-        <Table title={[{key: 'name', display: 'Name'}, {key: 'rank', display: 'Bananas'}, {key: 'bananas', display: 'Bananas'}]} data={[]}/>
+        <Table title={[{key: 'name', display: 'Name'}, {key: 'rank', display: 'Rank'}, {key: 'bananas', display: 'Bananas'}]} data={[
+          {
+            name: 'Kyaw Myo Htut',
+            rank: 'bronze',
+            bananas: '10000',
+            option: {
+              style: {
+                row: {
+                  backgroundColor: colors.info.first
+                },
+                cell: {
+                  color: colors.light.text
+                }
+              }
+            }
+          },
+          {
+            name: 'Hsu Lei Hnin',
+            rank: 'bronze',
+            bananas: '10000',
+            option: {
+              style: {
+                row: {
+                  backgroundColor: colors.info.second
+                },
+                cell: {
+                  color: colors.light.text
+                }
+              }
+            }
+          },
+          {
+            name: 'Enigma',
+            rank: 'bronze',
+            bananas: '10000',
+            option: {
+              style: {
+                row: {
+                  backgroundColor: colors.info.third
+                },
+                cell: {
+                  color: colors.light.text
+                }
+              }
+            }
+          },
+          {
+            name: 'Valovo',
+            rank: 'bronze',
+            bananas: '10000'
+          },
+          {
+            name: 'John Doe',
+            rank: 'bronze',
+            bananas: '10000'
+          },
+          {
+            name: 'Night Monkey',
+            rank: 'bronze',
+            bananas: '10000'
+          }
+        ]}/>
       </Card>
-    
-      {/* <Link href='sub'>Go to sub</Link> */}
     </ScreenContainer>
   )
 }
