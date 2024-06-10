@@ -2,25 +2,20 @@ import Button from "@/components/button.component";
 import Card from "@/components/card.component";
 import Grid, { Col } from "@/components/grid.component";
 import Input from "@/components/input.component";
-import LoadingComponent from "@/components/loading.component";
-import P from "@/components/p.component";
 import ScreenContainer from "@/components/screen-container.component";
 import Table from "@/components/table.component";
-import { colors, sizes } from "@/constants";
-import { users } from "@/constants/data";
-import { fetchTodo } from "@/hooks/service/todo";
-import { useHTTP } from "@/hooks/useHTTP";
-import { useSampleStore } from "@/store/test.store";
-import { Link } from "expo-router";
+import { sizes } from "@/constants";
+import { useGetUser } from "@/hooks/service/user";
+import { getUser } from "@/store/redux/action/user.action";
+import { RootState } from "@/store/redux/reducer";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function Home() {
-  const testData = useSampleStore((state) => state.testData)
-  const change = useSampleStore((state) => state.change)
-  const {data, isLoading, isSuccess} = useHTTP('todo', fetchTodo())
+  const dispatch = useDispatch()
+  const tableTitle = [{key: 'rank', display: 'Rank', flex: .55}, {key: 'name', display: 'Name', flex: 1.2}, {key: 'bananas', display: 'Bananas', flex: 1.2}]
 
-  if(isLoading) {
-    return <LoadingComponent />
-  }
+  // redux tes
+  const userData = useSelector((state: RootState) => state.users.data)
 
   return (
     <ScreenContainer>
@@ -29,73 +24,12 @@ export default function Home() {
           <Input placeholder="Serch ..." radius="sm"/>
         </Col>
         <Col span={0.4}>
-          <Button press={() => alert('fap')} text="Search" align="center" radius="sm"/>
+          <Button press={async () => dispatch(await getUser(20))} text="Search" align="center" radius="sm"/>
         </Col>
       </Grid>
 
       <Card radius="xxs">
-        <Table title={[{key: 'name', display: 'Name'}, {key: 'rank', display: 'Rank'}, {key: 'bananas', display: 'Bananas'}]} data={[
-          {
-            name: 'Kyaw Myo Htut',
-            rank: 'bronze',
-            bananas: '10000',
-            option: {
-              style: {
-                row: {
-                  backgroundColor: colors.info.first
-                },
-                cell: {
-                  color: colors.light.text
-                }
-              }
-            }
-          },
-          {
-            name: 'Hsu Lei Hnin',
-            rank: 'bronze',
-            bananas: '10000',
-            option: {
-              style: {
-                row: {
-                  backgroundColor: colors.info.second
-                },
-                cell: {
-                  color: colors.light.text
-                }
-              }
-            }
-          },
-          {
-            name: 'Enigma',
-            rank: 'bronze',
-            bananas: '10000',
-            option: {
-              style: {
-                row: {
-                  backgroundColor: colors.info.third
-                },
-                cell: {
-                  color: colors.light.text
-                }
-              }
-            }
-          },
-          {
-            name: 'Valovo',
-            rank: 'bronze',
-            bananas: '10000'
-          },
-          {
-            name: 'John Doe',
-            rank: 'bronze',
-            bananas: '10000'
-          },
-          {
-            name: 'Night Monkey',
-            rank: 'bronze',
-            bananas: '10000'
-          }
-        ]}/>
+        <Table title={tableTitle} data={userData}/>
       </Card>
     </ScreenContainer>
   )

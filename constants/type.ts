@@ -51,7 +51,8 @@ export type CARD = {
 
 export type TABLE_TITLE_CELL = {
   key: string,
-  display?: string
+  display?: string,
+  flex?: number
 }
 
 export type TABLE = {
@@ -74,4 +75,3 @@ export type TEST = {
   change: (data: number) => void
   changeProm: (process: PROMISE_CB) => PROMISE_VOID
 }
-

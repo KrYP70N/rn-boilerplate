@@ -1,7 +1,6 @@
 import { TABLE, TABLE_TITLE_CELL } from "@/constants";
-import Grid from "./grid.component";
+import Grid, { Col } from "./grid.component";
 import P from "./p.component";
-import { View } from "react-native";
 import If from "./if.component";
 import { general } from "@/style";
 
@@ -11,9 +10,9 @@ function TableHeader({data}: {data: TABLE_TITLE_CELL[]}) {
       {
         data?.map((item, id) => {
           return (
-            <View key={id}>
+            <Col span={item.flex} key={id}>
               <P style={general.tableCell}>{item.display?.toUpperCase()}</P>
-            </View>
+            </Col>
           )
         })
       }
@@ -30,7 +29,11 @@ function TableBody({data, mapping}: {data: object[], mapping: TABLE_TITLE_CELL[]
             <Grid style={{...general.tableRow, ...item.option?.style?.row}} col={3} key={id}>
               {
                 mapping.map((key, id) => {
-                  return <P key={id} size="xxs" style={{...general.tableCell, ...item.option?.style?.cell}}>{item[key.key]}</P>
+                  return(
+                    <Col key={id} span={key.flex}>
+                      <P size="xxs" style={{...general.tableCell, ...item.option?.style?.cell}}>{item[key.key]}</P>
+                    </Col>
+                  )
                 })
               }
             </Grid>
