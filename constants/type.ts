@@ -37,6 +37,11 @@ export type GRID = {
   children: ReactNode
 }
 
+export type INPUT = {
+  placeholder?: string,
+  radius?: SIZE
+}
+
 // func
 export type PROMISE_CB = () => Promise<any>
 export type PROMISE_VOID = Promise<void>

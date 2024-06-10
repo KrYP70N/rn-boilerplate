@@ -8,12 +8,16 @@ export default {
     text: '#11181C',
     textHightlight: '#DC5F00',
     background: '#fff',
-    primary: '#ffca3e'
+    primary: '#ffca3e',
+    light: '#efefef',
+    placeholder: '#c3cece'
   },
   dark: {
     text: '#efefef',
     textHightlight: '#DC5F00',
     background: '#11181C',
-    primary: '#ffca3e'
+    primary: '#ffca3e',
+    light: '#ccc',
+    placeholder: '#c3cece'
   },
 };

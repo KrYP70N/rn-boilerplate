@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/ling-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffca3e"
     },
     "ios": {
       "supportsTablet": true
