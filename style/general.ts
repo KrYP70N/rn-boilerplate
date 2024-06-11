@@ -30,5 +30,21 @@ export const general = StyleSheet.create({
     backgroundColor: colors.light.light,
     marginBottom: sizes.xxs / 2,
     borderRadius: 6
+  },
+  bananaIcn: {
+    position: 'absolute',
+    width: 18,
+    height: 18,
+    top: -2,
+    left: 5
+  },
+  bananaContainer: {
+    position: 'relative'
+  },
+  bananaCount: {
+    position: 'absolute',
+    top: -2,
+    left: 30,
+    fontFamily: 'title'
   }
 })

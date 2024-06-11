@@ -56,6 +56,7 @@ export const getUser = (filter: {key: string, order: USER_ORDER}) => ({
     // ASC DES
     if(filter.key !== '') {
       const data = originalData.find((item: any) => item.name.toLocaleLowerCase() === filter.key.toLocaleLowerCase())
+      
       if(data && modifiedData.find((item: any) => item.uid === data.uid)) {
         modifiedData = modifiedData.map((item: any) => {
           if(item.uid === data.uid) {
@@ -114,7 +115,7 @@ export const getUser = (filter: {key: string, order: USER_ORDER}) => ({
     }
 
     
-
+    
     return modifiedData
   }
 })

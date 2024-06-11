@@ -11,7 +11,7 @@ function TableHeader({data}: {data: TABLE_TITLE_CELL[]}) {
         data?.map((item, id) => {
           return (
             <Col span={item.flex} key={id}>
-              <P style={general.tableCell}>{item.display?.toUpperCase()}</P>
+              <P family="title" style={general.tableCell}>{item.display?.toUpperCase()}</P>
             </Col>
           )
         })

@@ -1,3 +1,4 @@
+import BananaIndicator from "@/components/banana.indicator";
 import Button from "@/components/button.component";
 import Card from "@/components/card.component";
 import Grid, { Col } from "@/components/grid.component";
@@ -6,10 +7,11 @@ import Input from "@/components/input.component";
 import P from "@/components/p.component";
 import ScreenContainer from "@/components/screen-container.component";
 import Table from "@/components/table.component";
-import { sizes, USER_ORDER } from "@/constants";
+import { images, sizes, USER_ORDER } from "@/constants";
 import { getUser } from "@/store/redux/action/user.action";
 import { RootState } from "@/store/redux/reducer";
 import { useEffect, useState } from "react";
+import { Image } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function Home() {
@@ -20,9 +22,7 @@ export default function Home() {
   const [key, setKey] = useState<string>('')
   const dispatch = useDispatch()
   const tableTitle = [{key: 'rank', display: 'Rank', flex: .55}, {key: 'name', display: 'Name', flex: 1.2}, {key: 'bananas', display: 'Bananas', flex: 1.2}]
-
   const userData = useSelector((state: RootState) => state.users.data)
-
   const orderCtrl = (order: USER_ORDER) => setFilter({
     ...filter,
     order
@@ -54,7 +54,10 @@ export default function Home() {
       
       <Card radius="xxs">
         <If state={userData?.length > 0}>
-          <Table title={tableTitle} data={userData}/>
+          <Table title={tableTitle} data={userData.map((item: any) => ({
+            ...item,
+            bananas: <BananaIndicator count={item.bananas} />
+          }))}/>
         </If>
 
         <If state={userData?.length === 0}>

@@ -1,6 +1,7 @@
 import { ReactNode } from "react"
 import colors from "./colors"
 import size from "./sizes"
+import fonts from "./fonts"
 
 // ui
 export type COLOR_SCHEME = keyof typeof colors.dark
@@ -16,7 +17,8 @@ export type TEXT = {
   size?: SIZE,
   lineHeight?: number,
   style?: object,
-  align?: ALIGNMENT
+  align?: ALIGNMENT,
+  family?: keyof typeof fonts
 }
 
 export interface BUTTON extends TEXT {
