@@ -17,8 +17,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/app-logo.png",
+        "backgroundColor": "#ffca3e"
       },
       "package": "com.aidenhtut.rnbp"
     },
@@ -33,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "139e92df-20bc-44f5-9c4d-ef5f86dd17c4"
+      }
     }
   }
 }

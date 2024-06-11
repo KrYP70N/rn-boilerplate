@@ -24,6 +24,9 @@ export default {
     first: '#ADD899',
     second: '#D8EFD3',
     third: '#F1F8E8',
-    thead: '#97BE5A'
+    thead: '#97BE5A',
+    active: '#DC5F00',
+    primary: '#ffca3e',
+    dark: '#11181C'
   }
 };

@@ -11,7 +11,7 @@ const ViewWrapper = ({context, width, margin, odd}: GRID_CONTEXT) => {
   }
 
   return (
-    <View style={{width: ele.props.span ? width * ele.props.span: width, marginRight: odd ? 0 : margin, marginBottom: margin}}>
+    <View style={{...ele.props.style, width: ele.props.span ? width * ele.props.span: width, marginRight: odd ? 0 : margin, marginBottom: margin}}>
       {context}
     </View>
   )

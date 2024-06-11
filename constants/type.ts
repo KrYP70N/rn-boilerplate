@@ -21,7 +21,8 @@ export type TEXT = {
 
 export interface BUTTON extends TEXT {
   press?: () => void,
-  radius?: SIZE
+  radius?: SIZE,
+  background?: keyof typeof colors.info
 }
 
 export type GRID_CONTEXT = {
@@ -40,13 +41,15 @@ export type GRID = {
 
 export type INPUT = {
   placeholder?: string,
-  radius?: SIZE
+  radius?: SIZE,
+  change?: (e: string) => void
 }
 
 export type CARD = {
   children: ReactNode,
   background?: COLOR_SCHEME,
-  radius?: SIZE
+  radius?: SIZE,
+  style?: object
 }
 
 export type TABLE_TITLE_CELL = {
@@ -70,6 +73,9 @@ export type PROMISE_CB = () => Promise<any>
 export type PROMISE_VOID = Promise<void>
 
 // others
+
+export type USER_ORDER = 'ASC' | 'DSC' | 'FUZ'
+
 export type TEST = {
   testData: number,
   change: (data: number) => void

@@ -90,15 +90,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "ymonOSLRONZxm99JFaPcbUoZSOF3"
     },
-    "yn0kIHr19ub7hgxfrxIHab0MRS73" : {
-      "bananas" : 2150,
-      "lastDayPlayed" : "2019-01-24",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "yn0kIHr19ub7hgxfrxIHab0MRS73"
-    },
     "yn8Jn7LPoCcL3e6KZtGx3RmzDB63" : {
       "bananas" : 900,
       "lastDayPlayed" : "2018-05-09",
@@ -144,15 +135,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "yniTP0KsvfRDuw8weRArLiUDLR13"
     },
-    "ynp3NHnzBBYGf0WWiOdMDug0bXZ2" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "ynp3NHnzBBYGf0WWiOdMDug0bXZ2"
-    },
     "yo4XFheX0DRGXLWsDMwUwvPUvN23" : {
       "bananas" : 2100,
       "lastDayPlayed" : "2018-05-12",
@@ -197,15 +179,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "yoSIZR2qFWPHCxezohG6A6j1Z0A3"
-    },
-    "yoSPvRbIpNcrIC7UyvRvWjvaA4R2" : {
-      "bananas" : 1700,
-      "lastDayPlayed" : "2018-12-06",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 12,
-      "subscribed" : false,
-      "uid" : "yoSPvRbIpNcrIC7UyvRvWjvaA4R2"
     },
     "yoSiLIddb4Qf37ojOkXBA9b6tsh1" : {
       "bananas" : 0,
@@ -468,15 +441,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "ytXuFVCwsLMoimdn6Xz2Bx5W1072"
     },
-    "ytyzFHdUQoaaWcH7rTUlTQAzV702" : {
-      "bananas" : 2150,
-      "lastDayPlayed" : "2019-01-05",
-      "longestStreak" : 2,
-      "name" : "",
-      "stars" : 15,
-      "subscribed" : false,
-      "uid" : "ytyzFHdUQoaaWcH7rTUlTQAzV702"
-    },
     "yuIdXqyJZzSIgSx8AADfcpKZYvz1" : {
       "bananas" : 1200,
       "lastDayPlayed" : "2019-01-20",
@@ -602,24 +566,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "yxtWwo0CtXXsRooLiRy2S0U1ND63"
-    },
-    "yy1gzdAO5YUJEW9DNdclPsrXvgR2" : {
-      "bananas" : 300,
-      "lastDayPlayed" : "2018-10-30",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 4,
-      "subscribed" : false,
-      "uid" : "yy1gzdAO5YUJEW9DNdclPsrXvgR2"
-    },
-    "yy4BetXI96bnkoUq7Vp0YtMyxMx2" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : true,
-      "uid" : "yy4BetXI96bnkoUq7Vp0YtMyxMx2"
     },
     "yy4I38Qdg5W4clyDUfGXD5SqI2c2" : {
       "bananas" : 0,
@@ -936,15 +882,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "z1kvBOXHCpaadn4Yrw7UQEy4PJ13"
     },
-    "z1sPPlQaaqSXmP1OR7Bf0mIxiko2" : {
-      "bananas" : 200,
-      "lastDayPlayed" : "2018-08-10",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "z1sPPlQaaqSXmP1OR7Bf0mIxiko2"
-    },
     "z1vrWHwukmWQV7kp5SlkR8ne7Tu2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -1034,15 +971,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "z3Hfnvu0EiZxVoL7JIibClu43ry1"
-    },
-    "z3aQznUPmiUSFGSrs3ZgXYlesTv2" : {
-      "bananas" : 1800,
-      "lastDayPlayed" : "2018-11-23",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 10,
-      "subscribed" : false,
-      "uid" : "z3aQznUPmiUSFGSrs3ZgXYlesTv2"
     },
     "z3cGuT4BkXT6oR2ETed873Rbmg63" : {
       "bananas" : 0,
@@ -1143,15 +1071,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "z4rQXao1uwYh2ur4dfzDHGwOp5A2"
     },
-    "z59xxcF2Y2YBzFbRbaZg1AqU1vj1" : {
-      "bananas" : 200,
-      "lastDayPlayed" : "2018-07-01",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 6,
-      "subscribed" : false,
-      "uid" : "z59xxcF2Y2YBzFbRbaZg1AqU1vj1"
-    },
     "z5AUSxZL80exW3wlsLA1swg0vVQ2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -1178,15 +1097,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "z5f976TTaBfzfVl9b3h1ZT5dxWq1"
-    },
-    "z5pnPic3KQQ0HBg8c85ejlQmZpS2" : {
-      "bananas" : 500,
-      "lastDayPlayed" : "2019-01-05",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 6,
-      "subscribed" : false,
-      "uid" : "z5pnPic3KQQ0HBg8c85ejlQmZpS2"
     },
     "z60rROZVm6ZVrIgRObZVAbfcqQ33" : {
       "bananas" : 0,
@@ -1251,24 +1161,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "z7LaOBiAypPaPfPVhgE6vgfgp2r1"
     },
-    "z7SD5HJRZCYnCYNpk3gseTaLbF82" : {
-      "bananas" : 150,
-      "lastDayPlayed" : "2018-08-18",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : true,
-      "uid" : "z7SD5HJRZCYnCYNpk3gseTaLbF82"
-    },
-    "z7UqpNDYugVpzkzi9LKT8ns4T8w2" : {
-      "bananas" : 800,
-      "lastDayPlayed" : "2019-01-31",
-      "longestStreak" : 2,
-      "name" : "",
-      "stars" : 4,
-      "subscribed" : false,
-      "uid" : "z7UqpNDYugVpzkzi9LKT8ns4T8w2"
-    },
     "z7ZQBUiGFvRQgbO7BfyYnP4u2cZ2" : {
       "bananas" : 1000,
       "lastDayPlayed" : "2018-09-18",
@@ -1314,15 +1206,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "z8EF5dsJxWhEEDvnjDhKX9JsXNd2"
     },
-    "z8RUiiuvb4S2kP7LQyMHjwH6jS62" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "z8RUiiuvb4S2kP7LQyMHjwH6jS62"
-    },
     "z8ekzon64wYPQCz6EBpz4trv4jG2" : {
       "bananas" : 150,
       "lastDayPlayed" : "2018-05-07",
@@ -1349,24 +1232,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "z9P2rPiQ39Sj786CpJIC0BlUUeS2"
-    },
-    "z9WiHWYhsiTAEEyH9ERfMj5z81m1" : {
-      "bananas" : 3350,
-      "lastDayPlayed" : "2019-01-20",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 18,
-      "subscribed" : false,
-      "uid" : "z9WiHWYhsiTAEEyH9ERfMj5z81m1"
-    },
-    "z9pzIUcQ4kNGy78cuZnEZjEFGy22" : {
-      "bananas" : 2650,
-      "lastDayPlayed" : "2019-01-06",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 16,
-      "subscribed" : false,
-      "uid" : "z9pzIUcQ4kNGy78cuZnEZjEFGy22"
     },
     "z9r8npWQOlY2oYbCcf8oHCXvDly1" : {
       "bananas" : 0,
@@ -1403,15 +1268,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zADk35N5Z2Wd2Nj573HoSC2MlMK2"
-    },
-    "zAE5V4Q7ISbpbIR5a5art10TlfP2" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zAE5V4Q7ISbpbIR5a5art10TlfP2"
     },
     "zATT3rA1m4O6bBAjhdcAY8fdt6m2" : {
       "bananas" : 200,
@@ -1602,15 +1458,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zDd6KlhaoKOEE22bbUfAQ7ahRIp2"
     },
-    "zDeUeaafz4YGiGMyInlqR6aJhcE3" : {
-      "bananas" : 4850,
-      "lastDayPlayed" : "2018-11-23",
-      "longestStreak" : 3,
-      "name" : "",
-      "stars" : 24,
-      "subscribed" : false,
-      "uid" : "zDeUeaafz4YGiGMyInlqR6aJhcE3"
-    },
     "zE0W0LAE0KQCGcM9yFqA8bC8zRA3" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -1620,15 +1467,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zE0W0LAE0KQCGcM9yFqA8bC8zRA3"
     },
-    "zENP7og5QLdb17sghjIRbCGminq1" : {
-      "bananas" : 3000,
-      "lastDayPlayed" : "2018-09-09",
-      "longestStreak" : 3,
-      "name" : "",
-      "stars" : 20,
-      "subscribed" : false,
-      "uid" : "zENP7og5QLdb17sghjIRbCGminq1"
-    },
     "zEaX8gIOmUN10j9u1JdzBF84ybb2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -1637,15 +1475,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zEaX8gIOmUN10j9u1JdzBF84ybb2"
-    },
-    "zEjso3ZuyRUMnYKQQO83n4lMCEF3" : {
-      "bananas" : 1100,
-      "lastDayPlayed" : "2018-11-18",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 6,
-      "subscribed" : false,
-      "uid" : "zEjso3ZuyRUMnYKQQO83n4lMCEF3"
     },
     "zF1mvWPB9KQk4NKGOtt90eAcfGd2" : {
       "bananas" : 200,
@@ -1691,15 +1520,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zG5OYn6wz9XuEPhgMTN2gichTKX2"
-    },
-    "zGBBKaajYgfOUpyA3WwPQ6Mz7Z12" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zGBBKaajYgfOUpyA3WwPQ6Mz7Z12"
     },
     "zGHiHrvovZUZgpfYw0nhMrvkLF32" : {
       "bananas" : 0,
@@ -1773,15 +1593,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zHNPE7X22PPhuEa0de5xkwWr5Kh2"
     },
-    "zHOw8fsRF6cyABBOCjWRbzaLRoC2" : {
-      "bananas" : 800,
-      "lastDayPlayed" : "2018-12-29",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 8,
-      "subscribed" : false,
-      "uid" : "zHOw8fsRF6cyABBOCjWRbzaLRoC2"
-    },
     "zHokvVRwUcMKGHHFCNmdGjmUQLH3" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -1808,15 +1619,6 @@ export const users = {
       "stars" : 9,
       "subscribed" : false,
       "uid" : "zI4YDfQ5FXfVk48dEqqlr4CQiTw2"
-    },
-    "zI4aHkI0szMk5eFAFxNgXnnHluA2" : {
-      "bananas" : 350,
-      "lastDayPlayed" : "2019-01-12",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 6,
-      "subscribed" : false,
-      "uid" : "zI4aHkI0szMk5eFAFxNgXnnHluA2"
     },
     "zI8TdPpA1lSL3bFy82gvpUB9dRL2" : {
       "bananas" : 0,
@@ -2448,15 +2250,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zRvuxmo3BDXIozG7W4np2glYsct1"
     },
-    "zS30iGvPtNhIjywkOdv5bZpd4fp1" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zS30iGvPtNhIjywkOdv5bZpd4fp1"
-    },
     "zSDDclV6EvQWMRHyVWfF17INtDw2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -2520,15 +2313,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zTbYx51ITTZ1YIUF9htjsWNz0wd2"
     },
-    "zTeJqnuxBXaL4tnZSjhnJCTpfcq2" : {
-      "bananas" : 400,
-      "lastDayPlayed" : "2018-08-06",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 7,
-      "subscribed" : false,
-      "uid" : "zTeJqnuxBXaL4tnZSjhnJCTpfcq2"
-    },
     "zU6sDK44MPTVxoMZQXvZUfkhbqs1" : {
       "bananas" : 5400,
       "lastDayPlayed" : "2019-02-01",
@@ -2573,15 +2357,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zV0CUgyQl2bqFpna5UrYPml6fvv1"
-    },
-    "zVOz7vTC7OPs3o1i8KjcmSs1Vr62" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zVOz7vTC7OPs3o1i8KjcmSs1Vr62"
     },
     "zVnUWYbYFVXD3XkJfB0WfjFYEAs1" : {
       "bananas" : 1150,
@@ -2628,15 +2403,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zWPzss20Xpecs9tpiAESFOzNlpc2"
     },
-    "zWUNAGikuSXtKBYE7S9QRDfCb213" : {
-      "bananas" : 2750,
-      "lastDayPlayed" : "2019-01-28",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 18,
-      "subscribed" : false,
-      "uid" : "zWUNAGikuSXtKBYE7S9QRDfCb213"
-    },
     "zWiAkiP4xagr4IxcBVmPbaZHSjx2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -2664,15 +2430,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zXO2s8Ecv6RJ5QCryErIUzYY3DG2"
     },
-    "zXd2QaxtQiXcmDfsZcWmCQVorR23" : {
-      "bananas" : 600,
-      "lastDayPlayed" : "2019-01-27",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 8,
-      "subscribed" : false,
-      "uid" : "zXd2QaxtQiXcmDfsZcWmCQVorR23"
-    },
     "zY4BRhqbznboVOwBuEeLNJI0VN12" : {
       "bananas" : 200,
       "lastDayPlayed" : "2018-12-19",
@@ -2690,15 +2447,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zY7Ncew5ljQOb1nac0MkwvZ9r4n1"
-    },
-    "zYHs2HIne6huhfoHTdJqKV0RwAc2" : {
-      "bananas" : 150,
-      "lastDayPlayed" : "2018-12-20",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 3,
-      "subscribed" : false,
-      "uid" : "zYHs2HIne6huhfoHTdJqKV0RwAc2"
     },
     "zYPGJUJV3wY1jANnWacpxwsD7FJ2" : {
       "bananas" : 4300,
@@ -2772,15 +2520,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zZTD2HBl0afKeHy7cq7Grmh789S2"
     },
-    "zZXSjas7BigmEk1NdO5CwJhoqtB2" : {
-      "bananas" : 400,
-      "lastDayPlayed" : "2019-01-21",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zZXSjas7BigmEk1NdO5CwJhoqtB2"
-    },
     "zZaolvrNMOVsZyrpVa7uS703x5m2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -2835,15 +2574,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zaOFZh3nRsPYGn9mz2OousEtlf92"
     },
-    "zaOzvAEHgre8S2olYNfW4KlqbzQ2" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zaOzvAEHgre8S2olYNfW4KlqbzQ2"
-    },
     "zaQ5tha7YgYkpkfEVbDFJxdEAlq2" : {
       "bananas" : 1800,
       "lastDayPlayed" : "2018-04-17",
@@ -2870,15 +2600,6 @@ export const users = {
       "stars" : 4,
       "subscribed" : false,
       "uid" : "zauU890VQpRtH8bTLWIPMbf1ne42"
-    },
-    "zauxp6KTucRpzvy5MsYxKidT2HO2" : {
-      "bananas" : 550,
-      "lastDayPlayed" : "2018-11-06",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 6,
-      "subscribed" : false,
-      "uid" : "zauxp6KTucRpzvy5MsYxKidT2HO2"
     },
     "zayhZbpkubUaYzQ1nc50ZUkpPh42" : {
       "bananas" : 3450,
@@ -3015,15 +2736,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zciubUNL2MThbVdMZfTbIo0tibh1"
     },
-    "zcpoytOjNGgA0tHSKcVdi6sMLZ72" : {
-      "bananas" : 800,
-      "lastDayPlayed" : "2018-09-18",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 9,
-      "subscribed" : false,
-      "uid" : "zcpoytOjNGgA0tHSKcVdi6sMLZ72"
-    },
     "zcwBLvrzzmd0euqT9JbaRXbLTOd2" : {
       "bananas" : 300,
       "lastDayPlayed" : "2018-11-06",
@@ -3050,24 +2762,6 @@ export const users = {
       "stars" : 7,
       "subscribed" : false,
       "uid" : "zd3FsnKRmpd8fSI4AwqlLtUtxE12"
-    },
-    "zd3ummBFI7c0BVdtoMWIj2jWr132" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zd3ummBFI7c0BVdtoMWIj2jWr132"
-    },
-    "zdP6H705EDduSypLwd8H7hNJ7dn2" : {
-      "bananas" : 300,
-      "lastDayPlayed" : "2018-09-19",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zdP6H705EDduSypLwd8H7hNJ7dn2"
     },
     "zdTqbp6rT1cuPpxfYqa1ec70dGm2" : {
       "bananas" : 0,
@@ -3113,15 +2807,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zdtY3H5wL6TIUnrc8EZUgAAPBIq2"
-    },
-    "ze0o6YA2dwM9ETD5Nlm6M7GfEOh1" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "ze0o6YA2dwM9ETD5Nlm6M7GfEOh1"
     },
     "ze69ZeQGFsbpiF4itrhR4sPS6At2" : {
       "bananas" : 0,
@@ -3222,15 +2907,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zfVFzljQ9jX6dVJ28FM8EkC8IAg2"
     },
-    "zfX5pLHUsUQyLSwnabZc1Oc0OHm2" : {
-      "bananas" : 400,
-      "lastDayPlayed" : "2018-12-03",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 7,
-      "subscribed" : false,
-      "uid" : "zfX5pLHUsUQyLSwnabZc1Oc0OHm2"
-    },
     "zfaMiy1mQubdryH0iJUvpGkF0MJ3" : {
       "bananas" : 600,
       "lastDayPlayed" : "2018-04-22",
@@ -3321,15 +2997,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zghUw5XBDkNoGC25zsLObiLCQiZ2"
     },
-    "zgjeBDbDyHO0XlGcF6p30THLr3h2" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zgjeBDbDyHO0XlGcF6p30THLr3h2"
-    },
     "zguCfZdFAwN7AFLK8lSx65TnXEy2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -3338,15 +3005,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zguCfZdFAwN7AFLK8lSx65TnXEy2"
-    },
-    "zhQxJ9631ATtN5vwFBd8ThlNJos1" : {
-      "bananas" : 1100,
-      "lastDayPlayed" : "2018-12-22",
-      "longestStreak" : 2,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zhQxJ9631ATtN5vwFBd8ThlNJos1"
     },
     "zhb6AgcDqAeWfXImwGQyKrjSjJo2" : {
       "bananas" : 200,
@@ -3717,15 +3375,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zmg2bCr6goagMs5MoPACa9DF1mx1"
     },
-    "zmjfBe4ET9VoA58OhhfgINFdb1J2" : {
-      "bananas" : 1900,
-      "lastDayPlayed" : "2019-02-02",
-      "longestStreak" : 2,
-      "name" : "",
-      "stars" : 13,
-      "subscribed" : false,
-      "uid" : "zmjfBe4ET9VoA58OhhfgINFdb1J2"
-    },
     "znGidINUdmMCFTJ8qq2k0mlyNhe2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -3798,15 +3447,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zoWgSNiXriPiHs7NxbpH3qVp2wf1"
     },
-    "zoXxyJIWNdQjX22aJB4ImHzYX4u2" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zoXxyJIWNdQjX22aJB4ImHzYX4u2"
-    },
     "zon4JUaO72T7mqAcP7GZagDytpW2" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -3870,15 +3510,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zpBoeaiiHrWCYkDbYD09jlDCzZl2"
     },
-    "zpGPokVHI0PWglXELkJXCj1FsJI3" : {
-      "bananas" : 1750,
-      "lastDayPlayed" : "2018-11-02",
-      "longestStreak" : 2,
-      "name" : "",
-      "stars" : 13,
-      "subscribed" : false,
-      "uid" : "zpGPokVHI0PWglXELkJXCj1FsJI3"
-    },
     "zpHyPyLVbfNLQLs42VcTTbDao0q2" : {
       "bananas" : 750,
       "lastDayPlayed" : "2018-06-23",
@@ -3941,15 +3572,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zq76SXOnbFOAvZpD4ExU01hHbv12"
-    },
-    "zqJpqWuTjqeNrP7ICYSf2EJwg9o1" : {
-      "bananas" : 400,
-      "lastDayPlayed" : "2018-07-21",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 7,
-      "subscribed" : false,
-      "uid" : "zqJpqWuTjqeNrP7ICYSf2EJwg9o1"
     },
     "zqbRQv9U3JVa4w9eisW4C6unycy2" : {
       "bananas" : 300,
@@ -4076,15 +3698,6 @@ export const users = {
       "stars" : 5,
       "subscribed" : false,
       "uid" : "zsRe73zITOWtuyrr41SiYxrr7SY2"
-    },
-    "zsYo8n58DjOfCNG01ZSqfzBvKL42" : {
-      "bananas" : 0,
-      "lastDayPlayed" : "2017-11-01",
-      "longestStreak" : 0,
-      "name" : "",
-      "stars" : 5,
-      "subscribed" : false,
-      "uid" : "zsYo8n58DjOfCNG01ZSqfzBvKL42"
     },
     "zszTz04D6ObZyyGsTiA0Gjj23k22" : {
       "bananas" : 0,
@@ -4257,15 +3870,6 @@ export const users = {
       "subscribed" : false,
       "uid" : "zxbkdkfuUKVbmQJlQfrX1K0XupD3"
     },
-    "zxgmxNuBpXVTqey26SiYBfB6K7v1" : {
-      "bananas" : 350,
-      "lastDayPlayed" : "2019-01-15",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 6,
-      "subscribed" : false,
-      "uid" : "zxgmxNuBpXVTqey26SiYBfB6K7v1"
-    },
     "zxof7OzVwmNTBX960gsiIhAWsBA3" : {
       "bananas" : 0,
       "lastDayPlayed" : "2017-11-01",
@@ -4283,24 +3887,6 @@ export const users = {
       "stars" : 16,
       "subscribed" : false,
       "uid" : "zxtxBkJPtXaNnfithxer7rczOS72"
-    },
-    "zy1c35c5QOeq5ibFExqdBxu1Z8x2" : {
-      "bananas" : 2700,
-      "lastDayPlayed" : "2018-12-16",
-      "longestStreak" : 3,
-      "name" : "",
-      "stars" : 17,
-      "subscribed" : false,
-      "uid" : "zy1c35c5QOeq5ibFExqdBxu1Z8x2"
-    },
-    "zy3K9D3dZnR7H0Vzq2GD2ZbD2PV2" : {
-      "bananas" : 2050,
-      "lastDayPlayed" : "2019-02-10",
-      "longestStreak" : 2,
-      "name" : "",
-      "stars" : 12,
-      "subscribed" : false,
-      "uid" : "zy3K9D3dZnR7H0Vzq2GD2ZbD2PV2"
     },
     "zy5Fy0QKFgS7sPwMsrqbjKudqe52" : {
       "bananas" : 0,
@@ -4364,15 +3950,6 @@ export const users = {
       "stars" : 35,
       "subscribed" : true,
       "uid" : "zyqWz9Obwsfk9TIkDAoNshMGPtc2"
-    },
-    "zysMpJUIpYepb1n3wELJajboTFE2" : {
-      "bananas" : 400,
-      "lastDayPlayed" : "2018-08-20",
-      "longestStreak" : 1,
-      "name" : "",
-      "stars" : 7,
-      "subscribed" : false,
-      "uid" : "zysMpJUIpYepb1n3wELJajboTFE2"
     },
     "zywwDpX4ovUw52Kt2vOP6tFbpzG3" : {
       "bananas" : 3150,
